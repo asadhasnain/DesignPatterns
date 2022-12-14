@@ -1,0 +1,25 @@
+lockfileVersion: 5.3
+
+specifiers:
+  '@rush-temp/builder': file:./projects/builder.tgz
+  typescript: ~4.1.0
+
+dependencies:
+  '@rush-temp/builder': file:projects/builder.tgz
+  typescript: 4.1.6
+
+packages:
+
+  /typescript/4.1.6:
+    resolution: {integrity: sha512-pxnwLxeb/Z5SP80JDRzVjh58KsM6jZHRAOtTpS7sXLS4ogXNKC9ANxHHZqLLeVHZN35jCtI4JdmLLbLiC1kBow==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  file:projects/builder.tgz:
+    resolution: {integrity: sha512-Gvic0XXOzYj0elvgmDFofMljSr0VYaH+KKxWiHk5HBqqKdFM0PMG7zy+7rQD/kVWaeqsWsilyV5jgiHx1nI1cw==, tarball: file:projects/builder.tgz}
+    name: '@rush-temp/builder'
+    version: 0.0.0
+    dependencies:
+      typescript: 4.1.6
+    dev: false
