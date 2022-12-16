@@ -2,11 +2,6 @@ import { PDFDocument } from "./PDFDocument";
 import { PresentationBuilder } from "./PresentationBuilder";
 import { Slide } from "./Slide";
 
-enum FormatToExport {
-  PDF,
-  TEXT
-}
-
 export class Presentation {
   private _slides: Array<Slide> = new Array<Slide>();
 
