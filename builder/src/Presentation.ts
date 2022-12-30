@@ -1,4 +1,3 @@
-import { PDFDocument } from "./PDFDocument";
 import { PresentationBuilder } from "./PresentationBuilder";
 import { Slide } from "./Slide";
 

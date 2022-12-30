@@ -11,6 +11,8 @@ import { Slide } from "./Slide";
 
 const main = () => {
 
+  console.log("\n***** Builder Design Pattern: To separate the construction of object from its representation *****\n");
+
   const presentation: Presentation = new Presentation();
 
   presentation.addSlide(new Slide("Slide 1"));
@@ -32,6 +34,8 @@ const main = () => {
 
 
   /* Reducing the constructor parameters and build query in parts */
+
+  console.log("\n***** Builder Design Pattern: Construct complex objects step by step *****\n");
 
   const employeeFilterAndOrdered: Query = new QueryBuilder("Employee").filter(`EmployeeId = 11`).orderBy(`EmployeeId ASC`).build();
 
