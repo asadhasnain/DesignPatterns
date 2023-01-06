@@ -1,0 +1,26 @@
+{
+  "name": "@design-patterns/flyweight",
+  "version": "1.0.0",
+  "description": "Design Patterns - FlyWeight",
+  "main": "lib/flyweight.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc 1>&2",
+    "clean": "rimraf lib .rush/temp/package-deps*.json",
+    "start": "node lib/flyweight.js"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "keywords": [
+    "DesignPatterns"
+  ],
+  "author": {
+    "name": "Bentley Systems, Inc.",
+    "url": "http://www.bentley.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "~4.1.0"
+  }
+}

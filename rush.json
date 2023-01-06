@@ -64,6 +64,11 @@
       "packageName": "@design-patterns/prototype",
       "projectFolder": "prototype",
       "reviewCategory": "designPatterns"
+    },
+    {
+      "packageName": "@design-patterns/flyweight",
+      "projectFolder": "flyweight",
+      "reviewCategory": "designPatterns"
     }
   ]
 }
