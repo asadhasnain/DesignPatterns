@@ -1,7 +1,5 @@
-import { Point } from "./Point";
 import { PointIconFactory } from "./PointIconFactory";
 import { PointService } from "./PointService";
-import { PointType } from "./PointType";
 
 (()=> {
     console.log("\n***** FlyWeight Design Pattern: A fine-grained instance used for efficient sharing *****\n \

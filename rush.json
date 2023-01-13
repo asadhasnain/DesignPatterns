@@ -69,6 +69,11 @@
       "packageName": "@design-patterns/flyweight",
       "projectFolder": "flyweight",
       "reviewCategory": "designPatterns"
+    },
+    {
+      "packageName": "@design-patterns/state",
+      "projectFolder": "state",
+      "reviewCategory": "designPatterns"
     }
   ]
 }

@@ -1,5 +1,4 @@
 import { IComponent } from "./components/IComponent";
-import { Valve } from "./components/Valve";
 
 export class ContextMenu {
     public duplicate (component: IComponent) : IComponent {
