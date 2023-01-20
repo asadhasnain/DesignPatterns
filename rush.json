@@ -74,6 +74,11 @@
       "packageName": "@design-patterns/state",
       "projectFolder": "state",
       "reviewCategory": "designPatterns"
+    },
+    {
+      "packageName": "@design-patterns/iterator",
+      "projectFolder": "iterator",
+      "reviewCategory": "designPatterns"
     }
   ]
 }

@@ -11,7 +11,7 @@ import { Slide } from "./Slide";
 
 const main = () => {
 
-  console.log("\n***** Builder Design Pattern: To separate the construction of object from its representation *****\n");
+  console.log("\n***** Builder Creational Design Pattern: To separate the construction of object from its representation *****\n");
 
   const presentation: Presentation = new Presentation();
 

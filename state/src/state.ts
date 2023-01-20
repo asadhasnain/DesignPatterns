@@ -4,7 +4,7 @@ import { SelectionTool } from "./SelectionTool";
 import { StopWatch } from "./stopwatch/StopWatch";
 
 (() => { 
-    console.log("\n***** State Design Pattern: Alter an object behavior when its state changes *****\n");
+    console.log("\n***** State Behavioral Design Pattern: Alter an object behavior when its state changes *****\n");
     const canvas = new Canvas();
     canvas.tool = new LineTool();
     canvas.mouseDown();
