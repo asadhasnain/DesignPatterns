@@ -84,6 +84,11 @@
       "packageName": "@design-patterns/strategy",
       "projectFolder": "strategy",
       "reviewCategory": "designPatterns"
+    },
+    {
+      "packageName": "@design-patterns/memento",
+      "projectFolder": "memento",
+      "reviewCategory": "designPatterns"
     }
   ]
 }
